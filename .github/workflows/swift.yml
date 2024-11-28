@@ -1,0 +1,38 @@
+# This workflow will build a Swift project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-swift
+
+name: Swift
+
+on:
+  push:
+    branches: [ "branch1" ]
+  pull_request:
+    branches: [ "branch1" ]
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Build
+      uses: maxim-lobanov/setup-xcode@v2
+      with:
+        xcode-version: '16.0'
+        
+    - name: Install Dependencies
+      run: |
+        if [ -f "Podfile" ]; then
+          gem install cocoapods
+          pod install
+        fi
+
+    - name: Build Project
+      run: |
+        xcodebuild clean build \
+          -workspace AddressFull.xcworkspace
+          -scheme AddressFull \
+          -sdk iphonesimulator \
+          -destination 'platform=iOS Simulator,name=iPhone 16 pro max' \
+          CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
