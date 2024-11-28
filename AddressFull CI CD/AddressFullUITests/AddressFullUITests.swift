@@ -40,6 +40,7 @@ final class AddressFullUITests: XCTestCase {
         element.children(matching: .textField).element(boundBy: 3).tap()
         app.alerts["“AddressFull” Would Like to Access Your Contacts"].scrollViews.otherElements.buttons["Continue"].tap()
         app.buttons["Allow Full Access"].tap()
+        sdckdncdcn
     }
     
     func testCompleteProfile() {
