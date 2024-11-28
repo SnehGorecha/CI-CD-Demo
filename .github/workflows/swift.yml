@@ -32,7 +32,7 @@ jobs:
       run: |
         xcodebuild clean build \
           -workspace AddressFull.xcworkspace
-          -scheme AddressFull \
+          -scheme AddressFull-Production \
           -sdk iphonesimulator \
           -destination 'platform=iOS Simulator,name=iPhone 16 pro max' \
           CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
