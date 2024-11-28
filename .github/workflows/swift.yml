@@ -19,7 +19,7 @@ jobs:
     - name: Build
       uses: maxim-lobanov/setup-xcode@v1
       with:
-        xcode-version: '16.0'
+        xcode-version: '14.0'
         
     - name: Install Dependencies
       run: |
@@ -34,5 +34,5 @@ jobs:
           -workspace AddressFull.xcworkspace
           -scheme AddressFull-Production \
           -sdk iphonesimulator \
-          -destination 'platform=iOS Simulator,name=iPhone 16 pro max' \
+          -destination 'platform=iOS Simulator,name=iPhone 14' \
           CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
