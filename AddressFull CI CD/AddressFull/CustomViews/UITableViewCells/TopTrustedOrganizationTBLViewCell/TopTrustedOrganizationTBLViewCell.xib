@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TopTrustedOrganizationTBLViewCell" rowHeight="154" id="KGk-i7-Jjw" customClass="TopTrustedOrganizationTBLViewCell" customModule="AddressFull" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="397" height="169"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="397" height="169"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yfH-j5-bUf">
+                        <rect key="frame" x="20" y="8" width="357" height="64"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="CCb-bb-Dqe">
+                                <rect key="frame" x="16" y="12" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="CCb-bb-Dqe" secondAttribute="height" multiplier="1:1" id="MyP-vM-IAg"/>
+                                    <constraint firstAttribute="height" constant="40" id="ygU-R8-NBs"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ibv-jZ-afh">
+                                <rect key="frame" x="76" y="0.0" width="281" height="64"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Organization Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUk-vn-cUE" customClass="AFLabelRegular" customModule="AddressFull" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="281" height="64"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BLv-2W-MO7" customClass="BasePoppinsRegularButton" customModule="AddressFull" customModuleProvider="target">
+                                        <rect key="frame" x="281" y="0.0" width="50" height="64"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="cWM-cT-Ifg"/>
+                                        </constraints>
+                                        <color key="tintColor" systemColor="labelColor"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="16" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="more-vertical"/>
+                                        <connections>
+                                            <action selector="btnMorePressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="uCo-Ng-p7C"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ibv-jZ-afh" firstAttribute="centerY" secondItem="yfH-j5-bUf" secondAttribute="centerY" id="5JJ-H0-EBE"/>
+                            <constraint firstItem="ibv-jZ-afh" firstAttribute="leading" secondItem="CCb-bb-Dqe" secondAttribute="trailing" constant="20" id="5NR-zN-CRg"/>
+                            <constraint firstAttribute="bottom" secondItem="ibv-jZ-afh" secondAttribute="bottom" id="Grc-gJ-8Lc"/>
+                            <constraint firstAttribute="trailing" secondItem="ibv-jZ-afh" secondAttribute="trailing" id="IIw-mg-TvN"/>
+                            <constraint firstItem="ibv-jZ-afh" firstAttribute="top" secondItem="yfH-j5-bUf" secondAttribute="top" id="Wl3-7L-qO7"/>
+                            <constraint firstItem="CCb-bb-Dqe" firstAttribute="top" secondItem="yfH-j5-bUf" secondAttribute="top" constant="12" id="cQ6-tv-vPw"/>
+                            <constraint firstAttribute="bottom" secondItem="CCb-bb-Dqe" secondAttribute="bottom" constant="12" id="dNc-wJ-M9o"/>
+                            <constraint firstItem="CCb-bb-Dqe" firstAttribute="centerY" secondItem="yfH-j5-bUf" secondAttribute="centerY" id="gPh-QG-0Lx"/>
+                            <constraint firstItem="CCb-bb-Dqe" firstAttribute="leading" secondItem="yfH-j5-bUf" secondAttribute="leading" constant="16" id="pVG-DR-5tH"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cun-Cf-5jU">
+                        <rect key="frame" x="367" y="3" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="cun-Cf-5jU" secondAttribute="height" multiplier="1:1" id="3n0-ED-YYL"/>
+                            <constraint firstAttribute="width" constant="15" id="kg4-bz-tdW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="yfH-j5-bUf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="47E-53-mRB"/>
+                    <constraint firstAttribute="bottom" secondItem="yfH-j5-bUf" secondAttribute="bottom" constant="8" id="OkM-K2-0pp"/>
+                    <constraint firstItem="cun-Cf-5jU" firstAttribute="trailing" secondItem="yfH-j5-bUf" secondAttribute="trailing" constant="5" id="i8d-9B-7gj"/>
+                    <constraint firstAttribute="trailing" secondItem="yfH-j5-bUf" secondAttribute="trailing" constant="20" id="m12-Ep-RN8"/>
+                    <constraint firstItem="cun-Cf-5jU" firstAttribute="top" secondItem="yfH-j5-bUf" secondAttribute="top" constant="-5" id="wiG-La-zPx"/>
+                    <constraint firstItem="yfH-j5-bUf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="x3d-zH-dcd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="bg_view" destination="yfH-j5-bUf" id="NAq-pT-TL4"/>
+                <outlet property="btn_count" destination="cun-Cf-5jU" id="9rh-rU-VnP"/>
+                <outlet property="btn_more" destination="BLv-2W-MO7" id="Jay-E5-IaB"/>
+                <outlet property="img_view_top_trusted_organization" destination="CCb-bb-Dqe" id="gxQ-n5-yVo"/>
+                <outlet property="lbl_organization_name" destination="dUk-vn-cUE" id="TWG-5y-mFg"/>
+            </connections>
+            <point key="canvasLocation" x="159.54198473282443" y="-27.816901408450704"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="more-vertical" width="20" height="20"/>
+        <image name="placeholder" width="300" height="300"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

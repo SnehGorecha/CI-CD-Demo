@@ -1,0 +1,18 @@
+//
+//  Debug.xcconfig
+//  AddressFull
+//
+//  Created by MacBook Pro  on 30/10/23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+NETWORK = https
+
+BASE_URL = api.addressfull.com/api/v2          // LIVE SERVER
+//BASE_URL = 192.168.187.224:3005/api/v2          // AVESH LOCAL SERVER
+//BASE_URL = 172.16.0.230:3005/api/v2      // JATIN LOCAL SERVER
+//BASE_URL = 172.16.2.200:3005/api/v2      // JANVI LOCAL SERVER
+//BASE_URL = 104.248.10.11:3001/api/v2     // DEV SERVER

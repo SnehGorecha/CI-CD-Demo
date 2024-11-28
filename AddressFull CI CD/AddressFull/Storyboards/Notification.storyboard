@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--NotificationsVC-->
+        <scene sceneID="Fv7-hW-yVo">
+            <objects>
+                <viewController storyboardIdentifier="NotificationsVC" id="nMD-fZ-0xn" customClass="NotificationsVC" customModule="AddressFull" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="S4J-GX-gtK">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wlq-BJ-XBA">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="123"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jjk-CU-xOB">
+                                <rect key="frame" x="0.0" y="59" width="393" height="64"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="xUt-BW-BTR"/>
+                                </constraints>
+                            </view>
+                            <segmentedControl opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="faU-Jr-pye" customClass="BaseSegmentControl" customModule="AddressFull" customModuleProvider="target">
+                                <rect key="frame" x="20" y="143" width="353" height="46.666666666666657"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="selectedSegmentTintColor" name="primary_green"/>
+                                <connections>
+                                    <action selector="segment_notification_type_changed:" destination="nMD-fZ-0xn" eventType="valueChanged" id="Isy-qs-e5K"/>
+                                </connections>
+                            </segmentedControl>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="vyL-aa-Uth" customClass="NotificationTblView" customModule="AddressFull" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="208.66666666666669" width="393" height="597.33333333333326"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CrR-ym-wg3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="faU-Jr-pye" firstAttribute="leading" secondItem="CrR-ym-wg3" secondAttribute="leading" constant="20" id="4cw-4O-o88"/>
+                            <constraint firstItem="faU-Jr-pye" firstAttribute="height" secondItem="CrR-ym-wg3" secondAttribute="height" multiplier="48:800" id="BeH-w1-Ebr"/>
+                            <constraint firstItem="vyL-aa-Uth" firstAttribute="top" secondItem="faU-Jr-pye" secondAttribute="bottom" constant="20" id="Bmv-G5-KHg"/>
+                            <constraint firstItem="vyL-aa-Uth" firstAttribute="leading" secondItem="CrR-ym-wg3" secondAttribute="leading" id="Ckw-LW-zIm"/>
+                            <constraint firstItem="CrR-ym-wg3" firstAttribute="trailing" secondItem="vyL-aa-Uth" secondAttribute="trailing" id="GCg-s0-F4E"/>
+                            <constraint firstItem="CrR-ym-wg3" firstAttribute="bottom" secondItem="vyL-aa-Uth" secondAttribute="bottom" constant="12" id="Ldk-1y-Wqb"/>
+                            <constraint firstItem="faU-Jr-pye" firstAttribute="top" secondItem="wlq-BJ-XBA" secondAttribute="bottom" constant="20" id="Lpv-TU-cVZ"/>
+                            <constraint firstItem="wlq-BJ-XBA" firstAttribute="bottom" secondItem="Jjk-CU-xOB" secondAttribute="bottom" id="Mga-gp-JlK"/>
+                            <constraint firstItem="wlq-BJ-XBA" firstAttribute="leading" secondItem="CrR-ym-wg3" secondAttribute="leading" id="YmT-uM-eGW"/>
+                            <constraint firstItem="wlq-BJ-XBA" firstAttribute="top" secondItem="S4J-GX-gtK" secondAttribute="top" id="cuu-bz-Cir"/>
+                            <constraint firstItem="CrR-ym-wg3" firstAttribute="trailing" secondItem="faU-Jr-pye" secondAttribute="trailing" constant="20" id="eux-AU-Wpl"/>
+                            <constraint firstItem="CrR-ym-wg3" firstAttribute="trailing" secondItem="wlq-BJ-XBA" secondAttribute="trailing" id="fya-xD-D1p"/>
+                            <constraint firstItem="Jjk-CU-xOB" firstAttribute="leading" secondItem="CrR-ym-wg3" secondAttribute="leading" id="gmx-jC-8XG"/>
+                            <constraint firstItem="CrR-ym-wg3" firstAttribute="trailing" secondItem="Jjk-CU-xOB" secondAttribute="trailing" id="hdx-Lh-07T"/>
+                            <constraint firstItem="Jjk-CU-xOB" firstAttribute="top" secondItem="CrR-ym-wg3" secondAttribute="top" id="oPr-6x-Aqx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="psK-Lw-llV"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="navigation_bar" destination="Jjk-CU-xOB" id="EcX-bE-B6U"/>
+                        <outlet property="segment_notification_type" destination="faU-Jr-pye" id="HbN-zf-XLE"/>
+                        <outlet property="tbl_view_notification_list" destination="vyL-aa-Uth" id="xTD-T5-T8d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F6X-UZ-VVD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-573" y="1877"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="primary_green">
+            <color red="0.0" green="0.69019607843137254" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

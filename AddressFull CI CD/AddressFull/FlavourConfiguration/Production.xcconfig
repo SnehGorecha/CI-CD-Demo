@@ -1,0 +1,14 @@
+//
+//  Production.xcconfig
+//  AddressFull
+//
+//  Created by MacBook Pro  on 30/10/23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+NETWORK = https
+
+BASE_URL = api.addressfull.com/api/v2

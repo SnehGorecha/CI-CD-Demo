@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D0D7B67C-C465-43A0-81BD-D0757EBA313D"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0AA947D2-633E-4A43-9B95-492CEFD02794"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AddressFull/CustomViews/UITableViews/CompleteProfileTblView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0AA947D2-633E-4A43-9B95-492CEFD02794 - 5d81fc149fee8ecb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int, Swift.String, Swift.Optional&lt;Swift.String&gt;) -&gt; () in closure #1 () -&gt; () in AddressFull.CompleteProfileTblView.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "AddressFull"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Macbook./Desktop/Dhanraj/GitlabProjects/AddressFull/AddressFull/CustomViews/UITableViews/CompleteProfileTblView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "156"
+                  endingLineNumber = "156"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "0AA947D2-633E-4A43-9B95-492CEFD02794 - 5d81fc149fee8ecb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int, Swift.String, Swift.Optional&lt;Swift.String&gt;) -&gt; () in closure #1 () -&gt; () in AddressFull.CompleteProfileTblView.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "AddressFull"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Macbook./Desktop/Dhanraj/GitlabProjects/AddressFull/AddressFull/CustomViews/UITableViews/CompleteProfileTblView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "156"
+                  endingLineNumber = "156"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

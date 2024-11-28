@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ProfileVC-->
+        <scene sceneID="ktu-yA-iO9">
+            <objects>
+                <viewController storyboardIdentifier="ProfileVC" id="Clb-hw-Rce" customClass="ProfileVC" customModule="AddressFull" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JZh-Il-4ZP">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i9g-oJ-1el">
+                                <rect key="frame" x="0.0" y="59" width="393" height="64"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="DOu-Wh-bKI"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="J0A-Wd-NjT" customClass="ProfileTblView" customModule="AddressFull" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="123" width="393" height="685"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="K3w-jo-Eg6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="K3w-jo-Eg6" firstAttribute="trailing" secondItem="J0A-Wd-NjT" secondAttribute="trailing" id="7ux-Gh-Kob"/>
+                            <constraint firstItem="K3w-jo-Eg6" firstAttribute="bottom" secondItem="J0A-Wd-NjT" secondAttribute="bottom" constant="10" id="FJh-7B-JKX"/>
+                            <constraint firstItem="J0A-Wd-NjT" firstAttribute="leading" secondItem="K3w-jo-Eg6" secondAttribute="leading" id="Fqm-4M-4Ml"/>
+                            <constraint firstItem="i9g-oJ-1el" firstAttribute="trailing" secondItem="K3w-jo-Eg6" secondAttribute="trailing" id="SdO-Wq-4ap"/>
+                            <constraint firstItem="i9g-oJ-1el" firstAttribute="top" secondItem="K3w-jo-Eg6" secondAttribute="top" id="awk-rx-seb"/>
+                            <constraint firstItem="i9g-oJ-1el" firstAttribute="leading" secondItem="K3w-jo-Eg6" secondAttribute="leading" id="fJ6-bb-1ov"/>
+                            <constraint firstItem="J0A-Wd-NjT" firstAttribute="top" secondItem="i9g-oJ-1el" secondAttribute="bottom" id="xOp-No-5Cn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="9SS-Mi-7AT"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="navigation_bar" destination="i9g-oJ-1el" id="MTd-XX-rDE"/>
+                        <outlet property="tbl_view_complete_your_profile" destination="J0A-Wd-NjT" id="NWc-UJ-Cau"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iJ3-X4-mDj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2454" y="1877"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ZLC-L6-dUX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="gdW-LM-Wxg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="profile_unselected" id="QK8-K0-vQt"/>
+                    <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bW6-N4-ADm">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Clb-hw-Rce" kind="relationship" relationship="rootViewController" id="4l5-6L-pry"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iE7-gO-yml" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3245" y="1877"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="profile_unselected" width="17" height="18"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

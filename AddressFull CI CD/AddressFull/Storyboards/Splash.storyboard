@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Tvt-6Z-U7A">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--SplashVC-->
+        <scene sceneID="9DU-xh-mIf">
+            <objects>
+                <viewController storyboardIdentifier="SplashVC" id="t5o-qj-yHY" customClass="SplashVC" customModule="AddressFull" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DwU-CS-xtN">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tTW-XF-0qe">
+                                <rect key="frame" x="0.0" y="425.66666666666669" width="393" height="0.66666666666668561"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="boB-9S-G5P"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_green_icon" translatesAutoresizingMaskIntoConstraints="NO" id="dig-WW-Dn8">
+                                <rect key="frame" x="60" y="367.66666666666669" width="273" height="116.66666666666669"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dig-WW-Dn8" secondAttribute="height" multiplier="250:107" id="bDm-KZ-ZYY"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uo9-i1-Lkt" customClass="AFLabelRegular" customModule="AddressFull" customModuleProvider="target">
+                                <rect key="frame" x="20" y="504.33333333333331" width="353" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="It2-hz-ag1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="It2-hz-ag1" firstAttribute="trailing" secondItem="uo9-i1-Lkt" secondAttribute="trailing" constant="20" id="4GT-LH-l9q"/>
+                            <constraint firstItem="uo9-i1-Lkt" firstAttribute="top" secondItem="dig-WW-Dn8" secondAttribute="bottom" constant="20" id="6Ea-6I-wfl"/>
+                            <constraint firstItem="It2-hz-ag1" firstAttribute="trailing" secondItem="tTW-XF-0qe" secondAttribute="trailing" id="JCr-gG-H6P"/>
+                            <constraint firstItem="dig-WW-Dn8" firstAttribute="width" secondItem="It2-hz-ag1" secondAttribute="width" multiplier="250:360" id="O3H-Vp-Z6S"/>
+                            <constraint firstItem="uo9-i1-Lkt" firstAttribute="leading" secondItem="It2-hz-ag1" secondAttribute="leading" constant="20" id="RXu-jO-CqG"/>
+                            <constraint firstItem="tTW-XF-0qe" firstAttribute="centerY" secondItem="DwU-CS-xtN" secondAttribute="centerY" id="Sit-Ls-hiT"/>
+                            <constraint firstItem="dig-WW-Dn8" firstAttribute="centerX" secondItem="DwU-CS-xtN" secondAttribute="centerX" id="YbV-KH-VW5"/>
+                            <constraint firstItem="dig-WW-Dn8" firstAttribute="centerY" secondItem="DwU-CS-xtN" secondAttribute="centerY" id="w8F-9I-cw3"/>
+                            <constraint firstItem="tTW-XF-0qe" firstAttribute="leading" secondItem="It2-hz-ag1" secondAttribute="leading" id="yL7-i1-XGc"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="5lL-dD-2ej"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="lbl_desc" destination="uo9-i1-Lkt" id="mp1-96-99e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GOj-Jg-O6K" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="843.51145038167931" y="267.6056338028169"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cip-VK-P0l">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Tvt-6Z-U7A" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="V6J-9q-aHC">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="t5o-qj-yHY" kind="relationship" relationship="rootViewController" id="Aqg-kX-Pzk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xEI-Hr-ab0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-83.206106870229007" y="267.6056338028169"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splash_green_icon" width="762" height="327"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

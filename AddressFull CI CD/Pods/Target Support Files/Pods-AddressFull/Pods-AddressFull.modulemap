@@ -1,0 +1,6 @@
+framework module Pods_AddressFull {
+  umbrella header "Pods-AddressFull-umbrella.h"
+
+  export *
+  module * { export * }
+}

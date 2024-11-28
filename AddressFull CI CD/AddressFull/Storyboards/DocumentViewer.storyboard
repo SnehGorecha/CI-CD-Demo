@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Document ViewerVC-->
+        <scene sceneID="neR-DW-gaE">
+            <objects>
+                <viewController storyboardIdentifier="DocumentViewerVC" id="T8c-XZ-ss4" customClass="DocumentViewerVC" customModule="AddressFull" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mI0-BI-r1t">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BaK-cO-2GT">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="123"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RlR-a1-XPj">
+                                <rect key="frame" x="0.0" y="59" width="393" height="64"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="Q0L-CZ-t1o"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gto-6d-VFm">
+                                <rect key="frame" x="0.0" y="123" width="393" height="729"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V6w-V3-UPn" customClass="BaseBoldButton" customModule="AddressFull" customModuleProvider="target">
+                                <rect key="frame" x="20" y="744.66666666666663" width="353" height="53.333333333333371"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="btnSavePressed:" destination="T8c-XZ-ss4" eventType="touchUpInside" id="z6g-af-WV9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bhV-Cc-1iy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="V6w-V3-UPn" firstAttribute="height" secondItem="mI0-BI-r1t" secondAttribute="height" multiplier="50:800" id="3oo-7e-bcJ"/>
+                            <constraint firstItem="BaK-cO-2GT" firstAttribute="leading" secondItem="mI0-BI-r1t" secondAttribute="leading" id="4iQ-8h-aO0"/>
+                            <constraint firstAttribute="bottom" secondItem="Gto-6d-VFm" secondAttribute="bottom" id="5Yb-dT-UEy"/>
+                            <constraint firstItem="BaK-cO-2GT" firstAttribute="top" secondItem="mI0-BI-r1t" secondAttribute="top" id="8XC-mK-eS3"/>
+                            <constraint firstItem="bhV-Cc-1iy" firstAttribute="trailing" secondItem="BaK-cO-2GT" secondAttribute="trailing" id="Amg-oH-6PW"/>
+                            <constraint firstItem="BaK-cO-2GT" firstAttribute="bottom" secondItem="RlR-a1-XPj" secondAttribute="bottom" id="Kjw-S1-fzv"/>
+                            <constraint firstItem="bhV-Cc-1iy" firstAttribute="bottom" secondItem="V6w-V3-UPn" secondAttribute="bottom" constant="20" id="Oam-GK-dM2"/>
+                            <constraint firstItem="RlR-a1-XPj" firstAttribute="top" secondItem="bhV-Cc-1iy" secondAttribute="top" id="WSg-eH-tHe"/>
+                            <constraint firstItem="V6w-V3-UPn" firstAttribute="leading" secondItem="mI0-BI-r1t" secondAttribute="leading" constant="20" id="ZCS-5j-Rqh"/>
+                            <constraint firstItem="bhV-Cc-1iy" firstAttribute="trailing" secondItem="RlR-a1-XPj" secondAttribute="trailing" id="ho6-ae-xs4"/>
+                            <constraint firstItem="bhV-Cc-1iy" firstAttribute="trailing" secondItem="Gto-6d-VFm" secondAttribute="trailing" id="lfQ-ZD-AsR"/>
+                            <constraint firstItem="bhV-Cc-1iy" firstAttribute="trailing" secondItem="V6w-V3-UPn" secondAttribute="trailing" constant="20" id="nUr-MM-eFw"/>
+                            <constraint firstItem="RlR-a1-XPj" firstAttribute="leading" secondItem="mI0-BI-r1t" secondAttribute="leading" id="pte-gk-GXZ"/>
+                            <constraint firstItem="Gto-6d-VFm" firstAttribute="leading" secondItem="bhV-Cc-1iy" secondAttribute="leading" id="rrY-Rc-Dah"/>
+                            <constraint firstItem="Gto-6d-VFm" firstAttribute="top" secondItem="BaK-cO-2GT" secondAttribute="bottom" id="saq-Ew-uUw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btn_save" destination="V6w-V3-UPn" id="c1o-ZQ-xAb"/>
+                        <outlet property="navigation_bar" destination="RlR-a1-XPj" id="KbU-cg-LX5"/>
+                        <outlet property="view_document" destination="Gto-6d-VFm" id="YKO-xP-6Pb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hjW-tW-1sJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="418" y="1877"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

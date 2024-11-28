@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22222" systemVersion="23D56" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="LoggedUserDetails" representedClassName="LoggedUserDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="country_code" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="mobile_number" optional="YES" attributeType="String"/>
+        <attribute name="token" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="LoggedUserPersonalDetails" representedClassName="LoggedUserPersonalDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="country_code" optional="YES" attributeType="String"/>
+        <attribute name="field_id" optional="YES" attributeType="String"/>
+        <attribute name="is_selected" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="type_of_field" optional="YES" attributeType="String"/>
+        <attribute name="type_of_value" optional="YES" attributeType="String"/>
+        <attribute name="user_id" optional="YES" attributeType="String"/>
+        <attribute name="value" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TwoStepVerificationQuestion" representedClassName="TwoStepVerificationQuestion" syncable="YES" codeGenerationType="class">
+        <attribute name="answer" optional="YES" attributeType="String"/>
+        <attribute name="question" optional="YES" attributeType="String"/>
+        <attribute name="question_id" optional="YES" attributeType="String"/>
+        <attribute name="user_id" optional="YES" attributeType="String"/>
+    </entity>
+</model>

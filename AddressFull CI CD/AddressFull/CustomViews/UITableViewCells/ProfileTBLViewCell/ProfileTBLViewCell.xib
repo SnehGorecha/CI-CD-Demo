@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProfileTBLViewCell" rowHeight="444" id="KGk-i7-Jjw" customClass="ProfileTBLViewCell" customModule="AddressFull" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="406" height="444"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="406" height="444"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C4l-df-0f3">
+                        <rect key="frame" x="-11" y="16" width="428" height="428"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="YQY-VD-xJu">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="428"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="YQY-VD-xJu" secondAttribute="height" multiplier="1:1" id="x6T-a8-Wdz"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="edit_pencil_with_bg" translatesAutoresizingMaskIntoConstraints="NO" id="OP2-pi-kXk">
+                                <rect key="frame" x="321" y="321" width="107" height="107"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="OP2-pi-kXk" secondAttribute="height" multiplier="1:1" id="mFV-hS-XZ8"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ebi-dc-PZs">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="428"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <connections>
+                                    <action selector="btnProfilePictureClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="juA-0c-qMC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ebi-dc-PZs" firstAttribute="top" secondItem="C4l-df-0f3" secondAttribute="top" id="8BW-tg-JHi"/>
+                            <constraint firstItem="YQY-VD-xJu" firstAttribute="leading" secondItem="C4l-df-0f3" secondAttribute="leading" id="BrF-sd-rSP"/>
+                            <constraint firstAttribute="bottom" secondItem="Ebi-dc-PZs" secondAttribute="bottom" id="E3g-tA-WgU"/>
+                            <constraint firstAttribute="trailing" secondItem="Ebi-dc-PZs" secondAttribute="trailing" id="GFQ-JB-hq7"/>
+                            <constraint firstItem="YQY-VD-xJu" firstAttribute="centerX" secondItem="C4l-df-0f3" secondAttribute="centerX" id="HWo-PA-l5K"/>
+                            <constraint firstItem="Ebi-dc-PZs" firstAttribute="leading" secondItem="C4l-df-0f3" secondAttribute="leading" id="K1t-bb-xfw"/>
+                            <constraint firstAttribute="bottom" secondItem="YQY-VD-xJu" secondAttribute="bottom" id="UhM-7z-Yrb"/>
+                            <constraint firstAttribute="trailing" secondItem="YQY-VD-xJu" secondAttribute="trailing" id="VXq-02-bw4"/>
+                            <constraint firstAttribute="bottom" secondItem="OP2-pi-kXk" secondAttribute="bottom" id="dP9-8z-gCD"/>
+                            <constraint firstItem="YQY-VD-xJu" firstAttribute="top" secondItem="C4l-df-0f3" secondAttribute="top" id="kff-vX-igk"/>
+                            <constraint firstAttribute="trailing" secondItem="OP2-pi-kXk" secondAttribute="trailing" id="qrp-Z9-tnB"/>
+                            <constraint firstItem="OP2-pi-kXk" firstAttribute="height" secondItem="YQY-VD-xJu" secondAttribute="height" multiplier="0.25" id="smL-lF-cmy"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="C4l-df-0f3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="2WX-0O-pcN"/>
+                    <constraint firstItem="C4l-df-0f3" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Pkx-Hb-OJt"/>
+                    <constraint firstAttribute="bottom" secondItem="C4l-df-0f3" secondAttribute="bottom" id="mOW-iF-bka"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="img_view_user_profile" destination="YQY-VD-xJu" id="xJb-N8-iSo"/>
+            </connections>
+            <point key="canvasLocation" x="62.595419847328245" y="128.16901408450704"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="edit_pencil_with_bg" width="42" height="42"/>
+        <image name="profile_placeholder" width="151" height="150"/>
+    </resources>
+</document>

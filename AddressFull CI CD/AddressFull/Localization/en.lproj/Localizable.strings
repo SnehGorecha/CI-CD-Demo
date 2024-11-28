@@ -1,0 +1,548 @@
+/* 
+  Localizable.strings
+  AddressFull
+
+  Created by MacBook Pro  on 30/10/23.
+  
+*/
+
+
+// SPLASH SCREEN
+"address_full" = "AddressFull";
+"consent_based_information_sharing_application" = "Share your contact details instantly and securely";
+
+
+// ONBOARDING
+"get_started" = "Get started";
+"next" = "Next";
+"done" = "Done";
+"onboarding_one_title" = "Choose which organisations are given access to your contact details";
+"onboarding_two_title" = "Instantly share your contact details, all in one place";
+"onboarding_three_title" = "Update all of your organisations with just one click";
+"onboarding_four_title" = "Your phone securely stores your contact details, as do your organisations";
+"onboarding_one_desc" = "Sharing data with organisations promotes collaboration and innovation while safeguarding privacy. Responsible data sharing fosters mutual benefit, advancing research, and creating positive societal impact.";
+"onboarding_two_desc" = "Consider the implications before accepting an organisation's request to share your data. Prioritize privacy, assess security measures, and understand potential consequences to make an informed decision.";
+"onboarding_three_desc" = "Ensure data integrity and confidentiality with robust security measures like blockchain technology and encryption protocols. These tools protect information from unauthorized access, providing a secure foundation for data sharing.";
+
+
+// SIGN UP SCREEN
+"sign_up" = "Sign up";
+"mobile_number" = "Mobile number";
+"mobile_numbers" = "Mobile numbers";
+"mobile_number*" = "Mobile number*";
+"select_mobile_number" = "Select Mobile number";
+"agree_gdpr" = "Agree GDPR Compliance";
+"send_otp" = "Send SMS verification code";
+"register_account" = "Register Account";
+"select_mobile_number_and_continue" = "Create a new account by entering your mobile number";
+
+
+// ALERT BUTTON
+"ok" = "OK";
+"cancel" = "Cancel";
+"yes" = "Yes";
+"yes_permanently_delete_my_account" = "Yes, permanently delete my account";
+"yes_i_want_to_delete_all_of_my_trusted_organizations" = "Yes, I want to delete all of my organisations";
+"no" = "No";
+"settings" = "Settings";
+"try_again" = "Try Again";
+
+
+// GDPR COMPLIANCE
+"agree" = "Agree";
+"gdpr_content_title_one" = "We take your data protection very seriously and adhere to data protection laws and GDPR laws. Based on this, the terms and conditions have been listed below. Please agree to continue.";
+"gdpr_content_title_two" = "Data Collection and Purpose:";
+"gdpr_content_title_three" = "Consent:";
+"gdpr_content_title_four" = "Data Security:";
+"gdpr_content_title_five" = "Data Retention:";
+"gdpr_content_title_six" = "Data Sharing:";
+"gdpr_content_title_seven" = "User Rights:";
+"gdpr_content_title_eight" = "Communication:";
+"gdpr_content_title_nine" = "Cookies and Tracking:";
+"gdpr_content_title_ten" = "Policy Updates:";
+"gdpr_content_title_eleven" = "AddressFull Team";
+"gdpr_terms_and_condition" = "Under the GDPR mandate, Addressfull responsibly collects data under the banner of legitimate interest, ensuring regulatory adherence";
+
+"gdpr_content" = "We take your data protection very seriously and adhere to data protection laws and GDPR laws. Based on this, the terms and conditions have been listed below. Please agree to continue.
+
+By signing up for our app, you acknowledge and agree to the following terms regarding the processing of your personal data in accordance with the General Data Protection Regulation (GDPR):
+
+Data Collection and Purpose:
+
+We collect and process your personal data for the purpose of creating and managing your user account. This includes, but is not limited to, your name, email address, and any other information required for account creation.
+
+Consent:
+
+By signing up, you provide explicit consent for the processing of your personal data as outlined in this statement. You have the right to withdraw your consent at any time by contacting our support team.
+
+Data Security:
+
+We take the security of your personal data seriously and implement measures to protect it from unauthorized access, disclosure, alteration, and destruction.
+
+Data Retention:
+
+Your personal data will be retained for as long as necessary to fulfill the purposes outlined in this statement or as required by law. You have the right to request the deletion of your data when it is no longer needed.
+
+Data Sharing:
+
+We do not sell, trade, or otherwise transfer your personal data to third parties without your explicit consent, except as required by law or to provide the services you requested.
+
+User Rights:
+
+You have the right to access, rectify, and erase your personal data. You can also request information about the processing of your data and object to certain processing activities.
+
+Communication:
+
+By signing up, you agree to receive transactional emails related to your account and app usage. You may also receive marketing communications based on your preferences, which you can modify in your account settings.
+
+Cookies and Tracking:
+
+We use cookies and similar technologies to enhance your experience on our app. You can manage cookie preferences through your browser settings.
+
+Policy Updates:
+
+This GDPR compliance statement is subject to periodic updates. Any changes will be communicated through the app or via email.
+
+By signing up, you confirm that you have read and understand this GDPR compliance statement. If you have any questions or concerns, please contact our support team.
+
+AddressFull Team";
+
+// POPIA COMPLIANCE
+"popia_content_title_one" = "We take your data protection very seriously and adhere to data protection laws and POPIA laws. Based on this, the terms and conditions have been listed below. Please agree to continue.";
+"popia_content_title_two" = "Data Collection and Purpose:";
+"popia_content_title_three" = "Consent:";
+"popia_content_title_four" = "Data Security:";
+"popia_content_title_five" = "Data Retention:";
+"popia_content_title_six" = "Data Sharing:";
+"popia_content_title_seven" = "User Rights:";
+"popia_content_title_eight" = "Communication:";
+"popia_content_title_nine" = "Cookies and Tracking:";
+"popia_content_title_ten" = "Policy Updates:";
+"popia_content_title_eleven" = "AddressFull Team";
+"popia_terms_and_condition" = "Under the POPIA mandate, Addressfull responsibly collects data under the banner of legitimate interest, ensuring regulatory adherence";
+
+"popia_content" = "We take your data protection very seriously and adhere to data protection laws and POPIA laws. Based on this, the terms and conditions have been listed below. Please agree to continue.
+
+By signing up for our app, you acknowledge and agree to the following terms regarding the processing of your personal data in accordance with the General Data Protection Regulation (POPIA):
+
+Data Collection and Purpose:
+
+We collect and process your personal data for the purpose of creating and managing your user account. This includes, but is not limited to, your name, email address, and any other information required for account creation.
+
+Consent:
+
+By signing up, you provide explicit consent for the processing of your personal data as outlined in this statement. You have the right to withdraw your consent at any time by contacting our support team.
+
+Data Security:
+
+We take the security of your personal data seriously and implement measures to protect it from unauthorized access, disclosure, alteration, and destruction.
+
+Data Retention:
+
+Your personal data will be retained for as long as necessary to fulfill the purposes outlined in this statement or as required by law. You have the right to request the deletion of your data when it is no longer needed.
+
+Data Sharing:
+
+We do not sell, trade, or otherwise transfer your personal data to third parties without your explicit consent, except as required by law or to provide the services you requested.
+
+User Rights:
+
+You have the right to access, rectify, and erase your personal data. You can also request information about the processing of your data and object to certain processing activities.
+
+Communication:
+
+By signing up, you agree to receive transactional emails related to your account and app usage. You may also receive marketing communications based on your preferences, which you can modify in your account settings.
+
+Cookies and Tracking:
+
+We use cookies and similar technologies to enhance your experience on our app. You can manage cookie preferences through your browser settings.
+
+Policy Updates:
+
+This POPIA compliance statement is subject to periodic updates. Any changes will be communicated through the app or via email.
+
+By signing up, you confirm that you have read and understand this POPIA compliance statement. If you have any questions or concerns, please contact our support team.
+
+AddressFull Team";
+
+
+// SIGN UP OTP
+"sms_verification" = "SMS Verification";
+"please_check_your_sms" = "Please check your SMS to see the verification code";
+"we_wanted_to_verify" = "Please enter the code that we sent to your mobile phone";
+"code" = "Code";
+"enter_otp_sent_on" = "Enter OTP sent on ";
+"resend_sms_verification_code" = "Resend SMS verification code";
+"submit" = "Submit";
+"verify" = "Verify";
+"resend_in" = "Resend in";
+
+
+// LOGIN WITH SECURITY QUESTION
+"attempts_remaining" = "Attempts Remaining :";
+
+// TEMPORARY LOCK
+"you_can_login_again_after" = "You can login again after";
+"app_is_temporary_locked" = "(Because of an incorrect password, your app has been temporarily locked)";
+
+// MOBILE NUMBER SELECTION
+"please_select_mobile_number" = "Please Select Mobile number";
+
+
+// BIO METRIC AUTHENTICATION
+"identify_yourself" = "Identify yourself";
+"biometric_authentication" = "Biometric authentication";
+"login" = "Log in";
+"welcome_back!" = "Welcome Back!";
+"face_id" = "Face ID";
+"touch_id" = "Touch ID";
+"passcode" = "Passcode";
+"biometryNotAvailable" = "Authentication could not start because the device does not support biometric authentication.";
+"biometryLockout" = "Authentication could not continue because the user has been locked out of biometric authentication, due to failing authentication too many times.";
+"biometryNotEnrolled" = "Authentication could not start because the user has not enrolled in biometric authentication.";
+"defaultMessage" = "Something went wrong, please try again.";
+"touchIDLockout" = "Too many failed attempts.";
+"touchIDNotAvailable" = "TouchID is not available on the device";
+"touchIDNotEnrolled" = "TouchID is not enrolled on the device";
+"authenticationFailed" = "The user failed to provide valid credentials";
+"appCancel" = "Authentication was cancelled by application";
+"invalidContext" = "The context is invalid";
+"notInteractive" = "Not interactive";
+"passcodeNotSet" = "Passcode is not set on the device";
+"systemCancel" = "Authentication was cancelled by the system";
+"userCancel" = "The user did cancel";
+"userFallback" = "The user chose to use the fallback";
+"finger_print_scanner" = "Finger Print Scanner";
+"app_is_locked" = "App is locked";
+"" = "This device supports neither Touch ID nor Face ID.";
+"" = "";
+"unlock" = "Unlock";
+
+
+// HOME SCREEN
+
+"home_screen" = "Home Screen";
+"new_requests" = "New requests";
+"search_organization" = "Search organisations";
+"its_time_to_start_connecting" = "It’s time to start connecting with your organisations.";
+"no_organization_found" = "Didn't found organisation? Let's go to organisations list.";
+"view_requests" = "View Requests";
+"top_trusted_organization" = "Top organisations";
+"top_organizations" = "Top organisations";
+"shared_data" = "Shared details";
+"my_shared_details" = "My shared details";
+"data_subject_access_request" = "Data subject access request";
+"shared_data_report" = "Shared Data Report";
+
+
+// TRUSTED ORGANIZATION
+"search_organization" = "Search organisations";
+"search" = "Search";
+"my_trusted_organizations" = "My organisations";
+"trusted_organization" = "Trusted organisation";
+"search_result" = "Search results";
+
+
+// ORGANIZATION MORE OPTIONS
+"delete_organization" = " Delete organisation";
+"block_organization" = " Block organisation";
+"view_shared_data" = " View shared details";
+
+
+// VIEW REQUEST
+"requests" = "Requests";
+"accept" = " Accept";
+"reject" = " Reject";
+"request_to_access_your_address" = " requested to access your Address.";
+"request_to_access_mobile_number" = " requested to access your Mobile number.";
+"request_to_access_email" = " requested to access your Email.";
+"recent" = "Recent";
+"previous" = "Previous";
+"start_date" = "Start Date";
+"end_date" = "End Date";
+"filter" = "Filter";
+
+
+// MY PROFILE
+"my_profile" = "My Profile";
+"edit" = "Edit";
+"email" = "Email";
+"emails" = "Emails";
+"email*" = "Email*";
+"address" = "Address";
+"addresses" = "Addresses";
+"address*" = "Address*";
+"social" = "Social";
+"social_media" = "Social Media";
+"add_more" = "Add more";
+"select_question" = "Select Question";
+"question" = "Questions";
+"answer_here" = "Answer Here..";
+"save" = "Save";
+"save_now" = "Save Now";
+"what_city_were_you_born_in" = "What city were you born in?";
+"what_is_the_name_of_your_first_pet" = "What is the name of your first pet?";
+"what_is_your_favorite_book_or_movie" = "What is your favorite book or movie?";
+"what_is_your_nick_name" = "What is your nick name?";
+"what_is_your_favorite_food" = "What is your favorite food?";
+"answer_the_security_question" = "Answer The Security Question & Continue With AddressFull";
+
+// COMPLETE PROFILE
+"complete_your_profile" = "Complete your profile";
+"name" = "Name";
+"first_name" = "First name";
+"first_name*" = "First name*";
+"last_name" = "Last name";
+"last_name*" = "Last name*";
+"security_questions*" = "Security questions*";
+"back" = "Back";
+
+
+// PHONE NUMBER
+"primary" = "Primary";
+"home" = "Home";
+"work" = "Work";
+"secondary" = "Secondary";
+"address" = "Address";
+"linkedin" = "LinkedIn";
+"twitter" = "Twitter";
+"no_linkedin_url" = "No LinkedIn link";
+"no_twitter_url" = "No Twitter link";
+
+
+
+// ORAGANIZATION PRFILE
+"unselect_all" = "Reset";
+"select_all" = "Select all";
+"organization_profile" = "Organisation Profile";
+"share_data" = "Share details";
+"share_my_profile" = "Share My Profile";
+"please_select_check_box_and_share_your_data" = "*By selecting the checkbox, you have agreed to share your details with";
+"please_update_any_value" = "Please update any value";
+
+
+// SHARED DATA
+"shared" = "Shared";
+"data_to" = "Data to";
+"data_shared_on" = "Shared on";
+"details" = "details";
+
+
+// NOTIFCATIONS
+"notification" = "Notification";
+"notifications" = "Notifications";
+"remove_notification" = "Remove this notification.";
+"block_notification" = "Block notification from this Profile";
+"notification_settings" = "Notification Settings";
+
+// SETTINGS
+
+"my_account" = "My Account";
+"app_lock" = "App lock";
+"gdpr_policy" = "GDPR policy";
+"popia_policy" = "POPIA policy";
+"data_protection_policy" = "Data protection policies";
+"data_protection" = "Data protection";
+"blocked" = "Blocked";
+"data_access_request" = "Data access request";
+"blocked_organizations" = "Blocked organisations";
+"delete_all_trsuted_organization" = "Delete all organisations";
+"delete_my_account" = "Delete my account";
+"setting" = "Settings";
+"logout" = "Log out";
+"remove_all_trusted_organization_popup_title" = "Delete all of my organisations";
+"delete_all_organizations" = "Delete";
+"remove_all_trusted_organization_confirmation_popup_title" = "Are you sure that you want to delete all of your organisations?";
+"remove_all_trusted_organization_confirmation_popup_first_option" = "By clicking here, all of your organisations will be deleted from your account. This action is permanent and cannot be undone.";
+"remove_all_trusted_organization_confirmation_popup_second_option" = "I would like to request to be removed from all of my organisation database.";
+"trusted_organization_are_deleted" = "All of your organisations have been successfully deleted from your account";
+"okay" = "Okay";
+"delete" = "Delete";
+"remove_my_profile_confirmation_popup_title" = "Are you sure that you want to delete your account?";
+"remove_my_profile_confirmation_popup_first_option" = "Yes, please delete my AddressFull Account.";
+"remove_my_profile_confirmation_popup_second_title" = "If you proceed, your account will be permanently deleted.";
+"remove_my_profile_confirmation_popup_second_option" = "Send a request to my organisations to delete my contact details from their records";
+"remove_my_profile_confirmation_popup_third_option" = "You can recover it within 24 hours. After this period, the action cannot be undone.";
+"my_profile_deleted" = "Your account has been deleted.";
+"remove_my_trusted_organization_confirmation_popup_title" = "Are you sure that you want to delete this organisation from your account?";
+"remove_my_trusted_organization_confirmation_popup_first_option" = "AddressFull will delete all your data from our database and send a request to the organisation to delete your data from their records.";
+"remove_my_trusted_organization_confirmation_popup_second_option" = "I would like to request to remove the shared data from this organisation.";
+"my_trusted_organization_is_deleted" = "Organisation deleted successfully from my organisation.";
+
+
+
+// MY ACCOUNT
+
+"two_step_verification" = "Two step verification";
+"language" = "Language";
+
+
+// HELP
+"help" = "Help";
+"help_center" = "Help center";
+"contact_us" = "Contact us";
+"terms_and_privacy_policy" = "Terms & Privacy policy";
+"app_info" = "App info";
+"disclaimer" = "Disclaimer";
+
+
+// MENU
+"activity_log" = "Activity log";
+"log_out" = "Log Out";
+
+
+// APP LOCK
+"password" = "Password";
+"delay" = "Timeout delay";
+"30_second" = "30 seconds";
+"60_second" = "1 minute";
+"2_minute" = "2 minutes";
+"5_minute" = "5 minutes";
+"other_options" = "Other Options";
+"set_pin" = "Set PIN";
+"set_face_id" = "Set Face ID";
+"set_fingerprint" = "Set Fingerprint";
+"alerts" = "Alerts";
+"updates" = "Updates";
+"data_insights" = "Data Insights";
+"in_app" = "In App";
+"push_notification" = "Push Notification";
+"sms" = "SMS";
+"type_of_notification" = "Type of Notification";
+
+
+// REPORT REASON
+"report_reason_title" = "Please provide below information to Report.";
+"support_center_email" = "Support Center Email";
+"enter_here" = "Enter here";
+"write_here" = "Enter your text here";
+"description" = "Description";
+"report" = "Report";
+
+// BLOCK REASON
+"block_reason_title" = "Block organisation";
+"block_reason_description" = "Please provide your reason for blocking this organisation";
+"block" = "Block";
+
+
+// MESSAGES
+
+"something_went_wrong" = "Something went wrong, please try again.";
+"netowrk_not_available" = "Network not available, please connect to network";
+"two_step_verification_added_successfully" = "Two step verification question added successfully";
+"two_step_verification_updated_successfully" = "Two step verification question updated successfully";
+"two_step_verification_wrong_answer" = "Incorrect answer";
+"two_step_verification_delete_message" = "Are you sure you want to delete this question from two step verification?";
+"two_step_verification_deleted_suucessfully" = "Two step verification question deleted successfully";
+"add_biometric_authentication_message" = "Add Face ID or Touch ID before using this app.";
+"are_you_sure_you_want_to_log_out" = "Are you sure that you want to log out?";
+"are_you_sure_you_want_to_reject_the_request" = "Are you sure that you want to reject this organisation’s request?";
+"upgrade_your_os_version" = "Upgrade your os version to iOS 14 or above to use this function";
+"failed_to_open_camera" = "Failed to open Camera";
+"invalid_image" = "Invalid Image";
+"invalid_qr" = "Invalid QR";
+"for_your_security_you_can_only_use_when_its_unlock" = "For your security, you can only use AddressFull when it's unlocked.";
+"login_successfully" = "Login successfully";
+"logout_successfully" = "Logout successfully";
+"register_successfully" = "Register successfully";
+"your_account_deleted_successfully" = "Your account deleted successfully";
+"profile_updated_successfully" = "Profile updated successfully";
+"no_data_found" = "No data found";
+"no_match_found" = "No match found";
+"please_enter_another" = "You must provide another";
+"to_delete_this" = "in order to delete this";
+"are_you_sure_you_want_to_delete_the" = "Are you sure that you want to delete your";
+"are_you_sure_you_want_to_go_back" = "Your changes won’t be saved. Are you sure you want to go back?";
+"discard_changes" = "Discard Changes?";
+"your_data_will_update_accross_all_your_trusted_organizations" = "Your data will update across all your organisations";
+"are_you_sure_you_want_to_save_profile" = "Are you sure you want to update your profile?";
+"multiple_device_found" = "You have been logged out due to multiple device login";
+"unregistered_user_need_to_signup_first" = "Unregistered user! need to signup first";
+"an_account_already_exists" = "An account already exists on either this device or another device.";
+"account_has_been_deactivated_on_your_request" = "Account has been deactivated on your request.";
+"your_session_has_been_expired" = "Your session has been expired.";
+
+
+// VALIDATION MESSAGES
+
+"please_enter_first_name" = "Please enter your first name";
+"please_enter_valid_first_name" = "Please enter a valid first name";
+"please_enter_last_name" = "Please enter your first name";
+"please_enter_valid_last_name" = "Please enter a valid last name";
+"please_enter_mobile_number" = "Please enter your Mobile number";
+"should_be_between_6_to_13_characters" = "must be between 6 to 13 characters";
+"please_enter_email" = "Please enter your email";
+"please_enter_valid_email" = "Please enter a valid email";
+"please_enter_address" = "Please enter your address";
+"please_enter_valid_address" = "Please enter a valid address";
+"please_enter_valid_linked_in_link" = "Please provide a valid LinkedIn URL";
+"please_enter_valid_twitter_link" = "Please provide a valid Twitter URL";
+"please_enter_otp" = "Please enter verification code";
+"please_enter_valid_otp" = "Please enter a valid verification code";
+"please_enter_two_step_verification_answer" = "Please enter answer";
+"please_select_two_step_verification_question" = "Please select question";
+"please_add_two_step_verification_question" = "For your security, You need to select at least one security question";
+"please_accept_gdpr_compliance" = "Please accept GDPR compliance";
+"please_select_atleast_one_data_to_share" = "Please select atleast one data to share with this organisation";
+"you_can_add_maximum" = "You can add a maximum of";
+"does_not_have_access_to_your" = "does not have access to your";
+"to_enable_acces_tap_settings_and_turn_on" = "To enable access, tap Settings and turn on";
+"you_need_to_select_atlease_one_mobile_number_and_one_email" = "You must provide at least 1 mobile number and 1 email address";
+"please_enter_start_date_and_end_date" = "Please enter Start Date and End Date";
+"you_can_not_modify_this_data" = "It is not possible to modify your registered number";
+"please_provide_reason_for_block" = "Please provide reason for block";
+"you_are_about_to_share_your_data_with" = "You are about to share your data with";
+"would_you_like_to_go_ahead" = "Would you like to go ahead?";
+"you_have_already_shared_your_data_with" = "You have already shared your data with";
+"would_you_like_to_update" = "Would you like to update?";
+"new_version_available_title" = "New version available!";
+"new_version_available_message" = "A new version of the AddressFull app is available. Do you want to update it now?";
+
+// TWO STEP VERIFICATION
+
+"security_questions" = "Security Questions";
+"two_factor_authentication" = "Two Factor Authentication";
+
+
+// SCANNER
+
+"align_qr_code" = "Align QR code within the frame to scan";
+"select_from_gallery" = "Select from gallery";
+
+
+// BLOCKED ORGANIZATION
+
+"blocked" = "Blocked";
+"unblock" = "Unblock";
+
+
+
+// IMAGE PICKER
+
+"camera" = "Camera";
+"gallery" = "Gallery";
+"image_selection_message" = "Please select user profile image";
+
+
+// SYNCHRONIZATION 
+
+"profile_data_synchronization" = "Please wait, Your data is synchronizing...";
+"disabled_description" = "disabled_description";
+
+
+// DATA SUBJECT ACCESS REQUEST
+
+"download_report" = "Request report";
+"download_description" = "*The report will detail the data shared by the individual and the organisations involved.";
+"dsar" = "DSAR";
+"dsar_description" = "All of your data is stored on your phone or with your organisations.
+
+We only store your primary mobile number in AddressFull’s database because this is your account’s unique identifier.
+
+You can submit a DSAR (data subject access request) report detailing the data that you have shared with your organisations.";
+
+"dsar_description_title" = "Data subject access request";
+
+// VERSION UPDATE
+
+"update_now" = "Update Now";
