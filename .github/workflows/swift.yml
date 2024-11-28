@@ -32,7 +32,7 @@ jobs:
     - name: Build Project
       run: |
         xcodebuild clean build \
-          -workspace AddressFull.xcworkspace \
+          -workspace AddressFull CI CD/AddressFull.xcworkspace \
           -scheme AddressFull-Production \
           -sdk iphonesimulator \
           -destination 'platform=iOS Simulator,name=iPhone 14' \
