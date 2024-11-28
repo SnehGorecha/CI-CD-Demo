@@ -19,7 +19,7 @@ jobs:
     - name: Build
       uses: maxim-lobanov/setup-xcode@v1
       with:
-        xcode-version: '14.0'
+        xcode-version: '15.0.1'
         
     - name: Install Dependencies
       run: |
