@@ -31,6 +31,7 @@ jobs:
 
     - name: Build Project
       run: |
+        cd "AddressFull CI CD"
         xcodebuild clean build \
           -workspace "AddressFull CI CD/AddressFull.xcworkspace" \
           -scheme AddressFull-Production \
