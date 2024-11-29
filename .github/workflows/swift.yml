@@ -1,6 +1,8 @@
 # This workflow will build a Swift project
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-swift
 
+# This workflow will build, archive, and export a Swift project
+
 name: Swift
 
 on:
@@ -29,13 +31,27 @@ jobs:
           pod install
         fi
 
-    - name: Build Project
+    - name: Build and Archive
       run: |
         cd "AddressFull CI CD"
-        xcodebuild clean build \
+        xcodebuild clean archive \
           -workspace "AddressFull.xcworkspace" \
           -scheme AddressFull-Production \
-          -sdk iphonesimulator \
-          -destination 'platform=iOS Simulator,name=iPhone 14' \
+          -sdk iphoneos \
+          -archivePath ./build/AddressFull.xcarchive \
           CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+
+    - name: Export IPA
+      run: |
+        cd "AddressFull CI CD"
+        xcodebuild -exportArchive \
+          -archivePath ./build/AddressFull.xcarchive \
+          -exportOptionsPlist ./ExportOptions.plist \
+          -exportPath ./build
+
+    - name: Upload IPA as Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: AddressFull-Production.ipa
+        path: "AddressFull CI CD/build/*.ipa"
 
